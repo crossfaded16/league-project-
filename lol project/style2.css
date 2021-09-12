@@ -1,0 +1,274 @@
+@font-face
+{
+  font-family: godofwar;
+  src: url(fonts/godofwar.TTF);
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: wintersolstice;
+  src: url(fonts/wintersolstice.ttf);
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: monofonto;
+  src: url(fonts/monofonto.otf);
+  font-style: normal;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  top:0px;
+  overflow: hidden;
+  margin-top:  0px;
+  padding-bottom: 19px;
+  padding-top: 13px;
+  font-size: 50px ;
+  font-family: godofwar;
+}
+
+*{
+  background-color:rgb(5, 16, 21);
+}
+
+.fp{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}  
+
+.quesansvid{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items:left;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  font-size: 10px;
+  max-width: 524px;
+}
+
+#qq{
+  font-family: wintersolstice;
+  font-size: 60px;
+  color: white;
+}
+
+#aa{
+  color: white;
+  display: block;
+  font-size: 17px;
+  font-family: monofonto;
+  position: relative; 
+  text-align: justify;
+}
+
+.imgbtn{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+.btn{
+  display: inline-block;
+  color: white;
+  background-color:rgb(11, 156, 156) ;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 33px;
+  font-family: "wintersolstice";
+  font-size: 35px;
+  
+}
+
+.btn a{
+  text-decoration: none;
+  background-color:rgb(11, 156, 156);
+  color: white;
+}
+
+.btn:hover{
+  background-color:rgb(11, 156, 156);
+  font-size: 36px;
+  box-shadow:  0 0 10px #ffffff, 0 0 10px #ffffff;
+  border: 2px solid teal ;
+}
+
+.pgii{
+  display:flex;
+  justify-content: space-between;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rlogo{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 60px 100px;
+}
+
+.rlogo img{
+  width: 40px;
+}
+
+.rimg{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.rimg img{
+  width :180px;
+  box-shadow:0px 10px 10px 0px rgb(16, 45, 58);
+}
+
+.rimg img:hover {
+  transform: translateY(10px);
+  transition: ease-in-out;
+}
+
+.top{
+  display: flex;
+  flex-direction: column;
+}
+.jg{
+  display: flex;
+  flex-direction: column;
+}
+
+.mid{
+  display: flex;
+  flex-direction: column;
+}
+
+.bot{
+  display: flex;
+  flex-direction: column;
+}
+
+.supp{
+  display: flex;
+  flex-direction: column;
+}
+
+.rbtn{
+  margin-top: 40px;
+  display: inline-block;
+  color: black;
+  background-color:rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  padding: 15px 33px;
+  font-family: "wintersolstice";
+  font-size: 35px;
+  text-align: center;
+  
+}
+
+.rbtn a{
+  text-decoration: none;
+  background-color:rgb(255, 255, 255);
+  color: black;
+}
+.tmainflex,.jmainflex,.mmainflex,.bmainflex,.smainflex{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+ 
+}
+
+.timgflex,.jimgflex,.mimgflex,.bimgflex,.simgflex{
+  display: flex;
+  margin-top: 80px;
+  padding-left: 47px;
+ 
+}
+
+.tcontent,.jcontent,.mcontent,.bcontent,.scontent{
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  margin-top: 70px;
+  margin-left: 40px;
+  width: 100%;
+ 
+}
+ 
+.thead,.jhead,.mhead,.bhead,.shead{
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  color:white;
+  font-family: wintersolstice;
+  font-size: 50px;
+  justify-content: center ;
+  gap: 15px;
+
+}
+
+.tdesc,.jdesc,.mdesc,.bdesc,.sdesc{
+  font-family: monofonto;
+  color: #ffffff;
+  text-align: justify;
+  justify-content: center;
+  padding: 10px 30px ;
+
+}
+
+.tpchamps,.jpchamps,.mpchamps,.bpchamps,.spchamps{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: monofonto;
+  padding: 40px 7px 47px 47px;
+  font-size: 30px;
+  justify-content: space-between;
+}
+
+.pcimg img{
+  width: 610px;
+  margin-left: 100px;
+}
+
+.pctxt{
+  text-align: center;
+  width: 100%;
+}
+
+.pcimg{
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer{
+  background: white;
+  color: black;
+  font-family: wintersolstice;
+  font-size: 22.5px;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
